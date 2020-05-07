@@ -1,0 +1,286 @@
+*{
+    max-width: 10000px;
+    min-width: 50px;
+    margin: 0;
+    color: whitesmoke;
+}
+
+body{
+    background-color: #0a81f8;
+}
+
+.stepone{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-height: 500px;
+    min-height: 80px;
+    background-color: #05386b;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+h1{
+    font-size: 50px; 
+}
+
+.steptwo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-height: 500px;
+    min-height: 60px;
+    background-color: #064788;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 40px; 
+}
+
+.stepthree{
+
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.three1, .three2, .three3{
+    border: 6px solid #0a81f8;
+    border-radius: 50px;
+    width: 250px;
+    padding-top: 30px;
+    background-color: rgb(53, 110, 163);
+    font-size: 20px;
+ text-decoration: none;
+ min-width: 360px;
+ max-width: 360px;
+ min-height: 400px;
+ max-height: 400px;
+}
+
+.three1:hover, .three2:hover, .three3:hover{
+    background-color: #064788; 
+}
+
+.threestatus{
+    font-size: 17px;
+    color: rgb(187, 187, 187);
+    padding-top: auto;
+    padding-bottom: 0;
+}
+.footer{
+    background-color: rgb(51, 60, 68);
+    margin-bottom: 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-size-adjust: 100%;
+    padding: auto auto 0px auto;
+    margin: auto auto 0px auto;
+}
+h6{
+color: rgb(161, 159, 159);
+font-size: 16px;
+}
+
+
+
+/* *{
+    max-width: 10000px;
+    min-width: 50px;
+    margin: 0;
+    color: whitesmoke;
+   
+}
+
+body{
+    background-color: #0a81f8;
+}
+
+.stepone{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-height: 500px;
+    min-height: 80px;
+    background-color: #05386b;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+h1{
+    font-size: 40px; 
+}
+
+.steptwo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-height: 500px;
+    min-height: 60px;
+    background-color: #064788;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 30px; 
+}
+
+
+.stepthree{
+    max-height: 500px;
+    min-height: 80px;
+    text-align: center;
+    font-size: 20px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.three1, .three2, .three3{
+ padding: 30px 30px 30px 30px;
+ margin: 0 20px 20px 20px;
+ border: 6px solid #0a81f8;
+ border-radius: 50px;
+ height: 300px;
+ width: 400px;
+ font-size: 20px;
+ background-color: rgb(53, 110, 163);
+}
+
+h3, h4, a{
+    text-decoration: none;
+    text-emphasis: none;
+    font-size: 20px;
+}
+
+.three1:hover, .three2:hover, .three3:hover{
+    background-color: #064788; 
+}
+
+.threestatus{
+    font-size: 15px;
+    color: rgb(187, 187, 187);
+    padding-top: auto;
+    padding-bottom: 0;
+}
+.footer{
+    background-color: rgb(51, 60, 68);
+    margin-bottom: 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-size-adjust: 100%;
+    padding: auto auto 0px auto;
+    margin: auto auto 0px auto;
+    height: 25px;
+}
+h6{
+color: rgb(161, 159, 159);
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+
+
+
+/* * {
+    font-family: sans-serif;
+    background-image: url('images/y.png');
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 10px;
+  max-height: 5000px;
+  min-width: 10px;
+  max-width: 700em;  
+  text-align: center;
+}
+
+h1 {
+    padding: 10px 2px 0px 4px;
+    margin: 10px 2px 0px 2px;    
+    font-size: 50px;
+    text-transform: uppercase;
+    color: wheat;
+    text-shadow: 5px 5px 1px black;
+    text-align: center;
+}
+
+
+h2 {
+    padding: 20px 2px 10px 4px;
+    margin: 1px 2px 1em 2px;
+    font-size: 45px;
+    text-shadow: 5px 5px 10px white;
+    text-align: center;
+}
+
+h3{
+    padding: 0px auto 0px auto;
+    margin: 1em auto 1em auto;
+    text-decoration: underline;
+    font-size: 25px;
+    text-shadow: 5px 5px 10px gray;
+    text-align: center;
+}
+
+table{
+    
+    padding: 1px auto 1px auto;
+    margin: 1px auto 1px auto;
+    border-radius: 40px;
+    border-spacing: 10px 10px; 
+    
+}
+
+tr,td{
+    padding: 1px auto 1px auto;
+    margin: 1px auto 1px auto;
+    border: 15px solid rgb(97, 105, 53);
+    border-radius: 40px;
+    font-size: 20px;
+    width: 300px;
+    height: 230px;
+
+}  
+
+h4{
+    text-align: right;
+    font-size: 24px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-size-adjust: 100%;
+    padding: auto auto 0px auto;
+    margin: auto auto 0px auto;
+   
+   
+}
+
+a{
+    color: palevioletred;
+    
+}
+ */
