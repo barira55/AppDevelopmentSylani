@@ -51,7 +51,7 @@ body{
 }
 
 
-.three1, .three2, .three3, .three4,  .three5,  .three6{
+.three1, .three2, .three3, .three4,  .three5,  .three6, .three7{
     border: 6px solid #0a81f8;
     border-radius: 50px;
     /* width: 250px; */
@@ -65,7 +65,7 @@ body{
  max-height: 400px;
 }
 
-.three1:hover, .three2:hover, .three3:hover, .three4:hover, .three5:hover, .three6:hover{
+.three1:hover, .three2:hover, .three3:hover, .three4:hover, .three5:hover, .three6:hover, .three7:hover{
     background-color: #064788; 
 }
 
